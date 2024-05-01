@@ -1,0 +1,179 @@
+.profile {
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-1 {
+    position: relative;
+    padding-top: 25px;
+    font-family: "Arial";
+}
+
+.navigation {
+    position: fixed;
+    z-index: 9999;
+    font-family: "Arial";
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navigation a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.navigation a.active {
+    background-color: red;
+}
+
+.navigation img.logo {
+    height: 90%;
+    float: right;
+    width: 178px;
+    padding-right: 5px;
+}
+
+.under_bar {
+    position: fixed;
+    font-family: "Arial";
+    font-size: 11px;
+    font-weight: bold;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    z-index: 9999;
+}
+
+.container-2 {
+    font-family: "Arial";
+    font-size: 14px;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.col-6{
+    font-family: "Arial Black";
+    font-size: 14px;
+    text-align: center;
+}
+
+.about_me {
+    text-align: justify;
+}
+
+.prog_gif {
+    float: right;
+    width: 300px;
+    margin: 7px 0 7px 20px;
+}
+
+.gif2 {
+    width: 50%;
+}
+
+.contact {
+    position: absolute;
+    background: white;
+    width: 100%;
+    left: 0;
+    padding-bottom: 20px;
+    line-height: 0.5;
+}
+
+.data {
+    font-size: 14px;
+    float: right;
+    padding-right: 5px;
+}
+
+.button_js_hacker {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.login {
+    background-image: url("../image/background.jpg");
+}
+
+.col-12 {
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+}
+
+.post_form {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    transform: translate(35%, 0);
+    height: 350px;
+    width: 60%;
+    left: 0;
+    position: relative;
+}
+
+.form_text {
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.form {
+    resize: none;
+    text-align: left;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.input_file{
+    background-color: white;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.button_js {
+    margin: 10px 10px 10px 0px;
+    left: 0;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
