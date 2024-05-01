@@ -1,0 +1,32 @@
+.login{
+    background-image: url("../image/background.jpg");
+    font-family: Arial;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    transform: translate(0, 50%);
+    text-align: center;
+}
+.reg_info{
+    font-size: 32px;
+    padding-left: 15px;
+}
+.form-1{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.btn_reg{
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    margin-top: 8px;
+}
